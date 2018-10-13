@@ -1,0 +1,149 @@
+/* 通用CSS属性设置 */
+.bai{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight:bold;
+}
+.hei {	font-size:10px;	text-decoration: none;	}
+.title-hei{ font-size:12px;}
+.main { width: 100%;}
+/*可编辑区左右结构设置 */
+#left {
+    margin-top:5px;
+    width:560px;
+    float:left;
+
+  }
+#right {
+   margin-top:5px;
+   width:224px;
+   float:right;
+  
+  }
+  /*左边层开始 */
+#leftimg {         /*左边层--大图 */  
+   width:560px;
+   height:104px;
+   background-image:url(../images/top.jpg);
+   margin-bottom:8px;
+   }
+.wrap1 {windth:100%;clear:both;}/*左边层--公告、招生的包裹层 */
+/*左边层--公告、招生的标题设置 */
+.titleleft {width:264px;float:left;}
+.titleright{width:264px;float:right;}
+#title1,#title2 { 
+   width:100%;
+   height:30px;
+   background-image:url(../images/ctt.jpg) ;
+    }
+#title1img, #title2img {
+   margin:7px;
+   width:76px;
+   height:17px;
+   float:left;
+  }
+#title1img  {background-image:url(../images/gt-1.jpg); }  
+#title2img  {background-image:url(../images/cttt-1.jpg) ; }  
+.title-moer {
+   margin:6px 15px 6px 0px;
+   width:35px;
+   height:15px;
+   float:right;
+   background-image:url(../images/gmore.jpg);   
+  }
+ /*左边层--公告、招生的内容 */
+#news1,#news2 {
+   width:100%;
+   background-image:url(../images/ctbg.jpg); 
+   }
+.title-line {
+	width:100%;
+	height:6px;
+	background-image:url(../images/ctdown.jpg);
+	}
+/*无序列表样式设置 */	
+ul{ margin:5px 0px 5px 10px;}
+.test1 li,.test2 li,.test3 li,.test4 li ,.test5 li{
+	 font-size:12px;
+	 color:blue;
+	 line-height:1.5em;
+	 padding-left:2px;
+	 list-style-position:inside;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.test1 li {list-style-image:url(../images/y.jpg);}
+.test2 li { list-style-image:url(../images/icon.gif);}
+.test3 li {list-style-image:url(../images/j.jpg);}
+.test4 li {list-style-image:url(../images/right04.jpg);}
+.test5 li {list-style-image:url(../images/06-1.gif);}
+/*左边层--快讯 教务 管理 支持的标题 */
+.title3456img{
+	width:100%;
+	height:22px;
+	background:url(../images/ttbg-1.jpg) center no-repeat;
+}
+
+/*左边层--快讯 教务 管理 支持的内容  */
+.newsw  {
+   width:100%;
+    }
+.small-title1 {
+	width:80px;
+	height:21px;
+	float:left;
+	margin:3px 0px 0px 13px;
+	}
+.small-title2 {
+	float:left;
+	width:100px;
+	padding:4px 0px 0px 10px;
+}
+.small-title3 {
+	width:60px;
+	height:21px;
+	background:url(../images/more.jpg) center no-repeat ;
+	float:right;
+}
+/*右边层开始设置  */
+.wrap2{width:100%;overflow:hidden;margin-bottom:10px;}
+/*width:100%;overflow:hidden;清除浮动的另一方式  */
+#quickimg {
+	width:100%;
+	height:32px;
+	background-image:url(../images/quick.jpg);
+	}
+.content {windth:100%;}
+#quickleft {float:left;}
+#quickright {float:right;margin-right:20px;}
+#searchimg,.fc-title,#form1,.link-content{width:100%;}
+#searchimg {
+	width:60px;
+	font-weight:bold;
+	line-height:16px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#fff;
+	background:#3399cc;
+	padding:5px;
+	font-weight:normal;
+	}
+#form1 ,.link-content{float:left;}
+#input {width:90px; margin-top:10px;margin-left:23px; }
+.fc-img { width:16px; height:16px;float:left; margin-left:8px;background:url(../images/276.gif) no-repeat;}
+.fc-font {float:left; padding-left:8px; font-weight:bold; }
+.
+
+
+
+
+
+
+
+
+
+
+
+
